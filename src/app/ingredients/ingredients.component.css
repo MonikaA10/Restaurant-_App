@@ -1,0 +1,30 @@
+/* ingredients.component.css */
+.ingredient-banner {
+  text-align: center;
+  background-image: url("../../assets/images/markus-spiske-6hDDnisCRMk-unsplash.jpg");
+  padding: 20px;
+  height: 635px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  max-width: 800px;
+  margin: 0 auto;
+  color: aliceblue;
+  font-weight: 100px;
+}
+
+.ingredient-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ingredient-icons img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+}

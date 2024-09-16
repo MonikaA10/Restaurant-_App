@@ -1,0 +1,29 @@
+<section class="review-section">
+    <div class="container">
+      <h1>Customer Reviews</h1>
+      <ul>
+        <li *ngFor="let review of reviews">
+          <h2>{{ review.name }}</h2>
+          <p>{{ review.comment }}</p>
+          <p>Rating: {{ review.rating }}/5</p>
+        </li>
+      </ul>
+      <form (ngSubmit)="addReview()">
+        <h3>Submit Your Review</h3>
+        <label>
+          Name:
+          <input type="text" [(ngModel)]="newReview.name" name="name" required>
+        </label>
+        <label>
+          Comment:
+          <textarea [(ngModel)]="newReview.comment" name="comment" required></textarea>
+        </label>
+        <label>
+          Rating:
+          <input type="number" [(ngModel)]="newReview.rating" name="rating" min="1" max="5" required>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  

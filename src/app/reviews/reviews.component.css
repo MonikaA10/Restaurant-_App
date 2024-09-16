@@ -1,0 +1,67 @@
+.review-section {
+    padding: 2rem;
+  }
+  
+  .review-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .review-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-section li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+  }
+  
+  .review-section h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .review-section h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .review-section p {
+    margin: 0.5rem 0;
+    color: #777;
+  }
+  
+  .review-section form {
+    margin-top: 2rem;
+  }
+  
+  .review-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-section input, .review-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .review-section button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .review-section button:hover {
+    background-color: #0056b3;
+  }
+  

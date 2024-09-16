@@ -1,0 +1,39 @@
+
+  
+  .home-content{
+    position: fixed;
+    background-image: url("./../../assets/images/odiseo-castrejon-1SPu0KT-Ejg-unsplash.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 677px;
+    /* opacity: 0.8; */
+
+  }
+
+  
+  p img{
+      width: 300px;
+  }
+
+  .buttons{
+    color: white;
+    padding-left: 500px;
+    /* padding-top: 100px; */
+  }
+
+  h1{
+    color: whitesmoke;
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 100px;
+    line-height: normal;
+  }
+
+  .buttons button { 
+    background-color: black;
+    opacity: 0.70;
+    color: white;
+    
+  }
+
+  

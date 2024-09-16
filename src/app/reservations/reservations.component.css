@@ -1,0 +1,54 @@
+.reservation-section {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .reservation-section .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .reservation-section h1 {
+    font-size: 2.5rem;
+    color: #d4af37; /* Gold color */
+  }
+  
+  .reservation-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reservation-section form div {
+    margin-bottom: 1rem;
+  }
+  
+  .reservation-section form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .reservation-section form input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reservation-section button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #d4af37; /* Gold color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .reservation-section button:hover {
+    background-color: #bfa130; /* Darker gold color */
+  }
+  
